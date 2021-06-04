@@ -26,7 +26,7 @@ min.lat <- -34
 max.long <- -24
 max.lat <- 6
 
-seq.long <- seq(min.long, min.lat, by = 10)
+seq.long <- seq(min.long, max.long, by = 10)
 seq.lat <- seq(min.lat, max.lat, by = 10)
 
 combination.min <- expand.grid(seq.long[-length(seq.long)], seq.lat[-length(seq.lat)])
